@@ -23,6 +23,7 @@ namespace BotGUI
         }
         public override AbstractTrade? decide(String s = "")
         {
+            Market m = Market.getInstance();
             AbstractTrade? trade = core.decide(s);
             if (trade == null)
                 return null;
@@ -30,7 +31,7 @@ namespace BotGUI
                 return null;
             float cost = trade.getReceiver().getCost(trade.getTicker());
             float current = trade.getReceiver().getShare(trade.getTicker())
-                * Market.getVal(trade.getTicker(), Market.getPrevDate(Market.getDate()));
+                * m.getVal(trade.getTicker(), m.getPrevDate(m.getDate()));
             if (reverse)
             {
                 if (current - cost > val)

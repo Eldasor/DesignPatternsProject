@@ -53,14 +53,15 @@ namespace BotGUI
 
         private LinearRegressionTuple getLinearRegression(String s)
         {
+            Market m = Market.getInstance();
             float ra, rb;
             List<float> vals = new List<float>();
-            Date d = Market.getDate();
+            Date d = m.getDate();
             float mean = 0;
             for (int i = 1; i <= length; ++i)
             {
-                d = Market.getPrevDate(d);
-                vals.Prepend(Market.getVal(s, d));
+                d = m.getPrevDate(d);
+                vals.Prepend(m.getVal(s, d));
                 mean += vals.ElementAt(0);
                 if (vals.ElementAt(0) == 0)
                     nmt = true;

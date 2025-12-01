@@ -20,7 +20,7 @@ namespace BotGUI
             cash = val;
             strategies = new List<IStrategy>();
             shares = new Dictionary<String, ShareDuple>();
-            Market.addListener(this);
+            Market.getInstance().addListener(this);
         }
 
         public float getCash()
@@ -70,7 +70,7 @@ namespace BotGUI
         public void submit(AbstractTrade trade)
         {
             if (trade.holdAssets())
-                Market.submit(trade);
+                Market.getInstance().submit(trade);
         }
 
         private bool validate(AbstractTrade? trade)
@@ -91,8 +91,9 @@ namespace BotGUI
         public float calcVal()
         {
             float ret = cash;
+            Market m = Market.getInstance();
             foreach (String s in shares.Keys)
-                ret += shares[s].num * Market.getVal(s, Market.getPrevDate(Market.getDate()));
+                ret += shares[s].num * m.getVal(s, m.getPrevDate(m.getDate()));
             return ret;
         }
 

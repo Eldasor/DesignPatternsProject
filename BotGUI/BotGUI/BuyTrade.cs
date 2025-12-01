@@ -13,14 +13,15 @@ namespace BotGUI
         public BuyTrade(Func<float, float, float, int, int> foo, Bot b) : base(foo, b) { }
         public override void execute()
         {
-            boughtPrice = Market.getVal(getTicker(), Market.getDate());
+            Market m = Market.getInstance();
+            boughtPrice = m.getVal(getTicker(), m.getDate());
             boughtNum = getTradeType().Invoke(boughtPrice, getMinimum(), getMaximum(), getShares());
             getReceiver().cashTransact(getMaximum() - boughtNum * boughtPrice);
             getReceiver().shareTransact(getTicker(), boughtNum, boughtPrice);
             if (boughtNum > 0)
             {
-                Market.addLog("Buy for " + boughtNum + " " + getTicker() + " for " + getReceiver().getName() + " executed at " + boughtPrice + "\n");
-                Market.addBListener(this);
+                m.addLog("Buy for " + boughtNum + " " + getTicker() + " for " + getReceiver().getName() + " executed at " + boughtPrice + "\n");
+                m.addBListener(this);
             }
         }
 
@@ -49,7 +50,7 @@ namespace BotGUI
 
         public override bool back()
         {
-            if (getDate() < Market.getDate())
+            if (getDate() < Market.getInstance().getDate())
                 return false;
             getReceiver().cashTransact(boughtNum * boughtPrice, true);
             getReceiver().shareTransact(getTicker(), -1 * boughtNum, boughtPrice, true);

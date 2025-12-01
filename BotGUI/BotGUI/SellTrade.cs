@@ -14,14 +14,15 @@ namespace BotGUI
         public SellTrade(Func<float, float, float, int, int> foo, Bot b) : base(foo, b) { }
         public override void execute()
         {
-            sellPrice = Market.getVal(getTicker(), Market.getDate());
+            Market m = Market.getInstance();
+            sellPrice = m.getVal(getTicker(), m.getDate());
             sellNum = getTradeType().Invoke(sellPrice, getMinimum(), getMaximum(), getShares());
             getReceiver().cashTransact(sellNum * sellPrice);
             getReceiver().shareTransact(getTicker(), getShares() - sellNum, oldPrice);
             if (sellNum > 0)
             {
-                Market.addBListener(this);
-                Market.addLog("Sell for " + sellNum + " " + getTicker() + "for " + getReceiver().getName() + " executed at " + sellPrice + "\n");
+                m.addBListener(this);
+                m.addLog("Sell for " + sellNum + " " + getTicker() + "for " + getReceiver().getName() + " executed at " + sellPrice + "\n");
             }
         }
         public override bool validate()
@@ -49,7 +50,7 @@ namespace BotGUI
 
         public override bool back()
         {
-            if (getDate() < Market.getDate())
+            if (getDate() < Market.getInstance().getDate())
                 return false;
             getReceiver().cashTransact(-1 * sellNum * sellPrice, true);
             getReceiver().shareTransact(getTicker(), sellNum, oldPrice, true);

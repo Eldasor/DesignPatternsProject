@@ -39,12 +39,12 @@ namespace BotGUI
 
         private void stepTimer_Tick(object sender, EventArgs e)
         {
-            Market.tick();
+            Market.getInstance().tick();
         }
 
         private void stepButton_Click(object sender, EventArgs e)
         {
-            Market.tick();
+            Market.getInstance().tick();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -71,12 +71,12 @@ namespace BotGUI
 
         private void backButton_Click(object sender, EventArgs e)
         {
-            Market.back();
+            Market.getInstance().back();
         }
 
         private void mainForm_Load(object sender, EventArgs e)
         {
-            Market.init(this);
+            Market.getInstance(this);
         }
 
         public bool back()
@@ -87,9 +87,10 @@ namespace BotGUI
 
         public void notify()
         {
-            richTextBox1.Text = Market.getBLog();
-            richTextBox2.Text = Market.getLog();
-            valueLabel.Text = "$" + Math.Round(Market.calcVal(), 2);
+            Market m = Market.getInstance();
+            richTextBox1.Text = m.getBLog();
+            richTextBox2.Text = m.getLog();
+            valueLabel.Text = "$" + Math.Round(m.calcVal(), 2);
         }
 
         private void removeButton_Click(object sender, EventArgs e)

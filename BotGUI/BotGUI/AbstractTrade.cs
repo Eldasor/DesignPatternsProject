@@ -21,7 +21,7 @@ namespace BotGUI
         {
             receiver = b;
             trade = foo;
-            date = Market.getDate();
+            date = Market.getInstance().getDate();
             ticker = "";
         }
         public Bot getReceiver()

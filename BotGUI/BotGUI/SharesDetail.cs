@@ -16,6 +16,7 @@ namespace BotGUI
 
         public override AbstractTrade? decide(String s = "")
         {
+            Market m = Market.getInstance();
             AbstractTrade? trade = core.decide(s);
             if (trade == null)
                 return null;
@@ -23,7 +24,7 @@ namespace BotGUI
             if (shares == 0)
             {
                 int temp = (int)Math.Floor(trade.getMaximum()
-                    / Market.getVal(trade.getTicker(), Market.getPrevDate(Market.getDate())));
+                    / m.getVal(trade.getTicker(), m.getPrevDate(m.getDate())));
                 if (temp == 0)
                     return null;
                 trade.setShares(temp);

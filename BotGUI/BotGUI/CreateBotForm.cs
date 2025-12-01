@@ -19,7 +19,7 @@ namespace BotGUI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Market.addBot(new Bot(botNameTextBox.Text, float.Parse(botInitialCashBox.Value.ToString())));
+            Market.getInstance().addBot(new Bot(botNameTextBox.Text, float.Parse(botInitialCashBox.Value.ToString())));
             this.Close();
         }
     }

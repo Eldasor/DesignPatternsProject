@@ -25,7 +25,7 @@ namespace BotGUI
         private void RemoveStrategyForm_Load(object sender, EventArgs e)
         {
             List<DataItem> botCombo = new List<DataItem>();
-            List<Bot> bots = Market.getBots();
+            List<Bot> bots = Market.getInstance().getBots();
             for (int i = 0; i < bots.Count(); ++i)
                 botCombo.Add(new DataItem(i, bots.ElementAt(i).getName()));
             comboBox1.DataSource = botCombo;
@@ -35,7 +35,7 @@ namespace BotGUI
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Market.getBots()[comboBox1.SelectedIndex].removeStrategy(int.Parse(numericUpDown1.Value.ToString()));
+            Market.getInstance().getBots()[comboBox1.SelectedIndex].removeStrategy(int.Parse(numericUpDown1.Value.ToString()));
             this.Close();
         }
     }

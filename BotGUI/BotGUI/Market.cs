@@ -11,54 +11,49 @@ namespace BotGUI
     // static class that functions as the "stock market"
     // stores hashmaps of stocks across the whole market we're simulating
     // almost like global variables too
-    internal static class Market
+    internal class Market
     {
+        // consider these "global" variables, or constants
         static readonly Date safeMinDate = new Date(1999, 1, 1);
         static readonly Date safeMaxDate = new Date(2021, 1, 1);
-        static List<IListener> listeners = new List<IListener>();
-        static List<IBackListener> blisteners = new List<IBackListener>();
-        static List<AbstractTrade> pending = new List<AbstractTrade>();
-        static Date curDate = new Date(2005, 5, 2);
-        static Random rand = new Random(DateTimeOffset.UtcNow.Millisecond);
-        static Dictionary<String, Dictionary<Date, StockData>> stockMarket = new Dictionary<String, Dictionary<Date, StockData>>();
-        static HashSet<Date> validDate = new HashSet<Date>();
-        static String log = "";
-        static mainForm? form;
-        static List<Bot> bots = new List<Bot>();
-        public static void init(mainForm f)
+        // assuming windows, need to maybe modify that?
+        static readonly String directory = Directory.GetCurrentDirectory() + "\\stockdata";
+        static Market? instance;
+        static readonly IMarketDataSource dataSourceReader = new WindowsFileSystemMarketDataSource();
+        private static Object _lock = new Object();
+
+        List<IListener> listeners = new List<IListener>();
+        List<IBackListener> blisteners = new List<IBackListener>();
+        List<AbstractTrade> pending = new List<AbstractTrade>();
+        Date curDate = new Date(2005, 5, 2);
+        Random rand = new Random(DateTimeOffset.UtcNow.Millisecond);
+        Dictionary<String, StockHistory> stockMarket = new Dictionary<String, StockHistory>();
+        HashSet<Date> validDate = new HashSet<Date>();
+        String log = "";
+        mainForm? form;
+        List<Bot> bots = new List<Bot>();
+        
+        private Market()
+        {
+
+        }
+        public void init(mainForm? f)
         {
             form = f;
-            // assuming windows, need to maybe modify that?
-            String here = Directory.GetCurrentDirectory();
-            here += "\\stockdata";
-            String[] stockfiles = Directory.GetFiles(here);
+            String[] stockfiles = Directory.GetFiles(directory);
             foreach(String file in stockfiles)
             {
-                String[] lines = File.ReadAllLines(file);
-                String[] temp = file.Split("\\");
-                String ticker = temp[temp.Length - 1].Split(".")[0];
-                stockMarket[ticker] = new Dictionary<Date, StockData>();
-                for (int i = 1; i < lines.Length; ++i)
-                {
-                    String[] fields = lines[i].Split(",");
-                    if (fields.Length > 4)
-                    {
-                        StockData? sd = StockData.Parse(fields);
-                        if (sd != null)
-                        {
-                            Date d = Date.parseDate(fields[0]);
-                            stockMarket[ticker][d] = (StockData) sd;
-                            validDate.Add(d);
-                        }
-                    }
-                }
+                dataSourceReader.load(stockMarket, file);
             }
-            listeners.Add(f);
-            blisteners.Add(f);
+            if (f != null)
+            {
+                listeners.Add(f);
+                blisteners.Add(f);
+            }
             log += "Finished initializing stock data from files\n";
             refresh();
         }
-        public static void tick()
+        public void tick()
         {
             foreach (AbstractTrade trade in pending)
             {
@@ -71,7 +66,7 @@ namespace BotGUI
                 listener.notify();
             }
         }
-        public static Date getPrevDate(Date d)
+        public Date getPrevDate(Date d)
         {
             do
             {
@@ -81,19 +76,19 @@ namespace BotGUI
             return d;
         }
 
-        public static void refresh()
+        public void refresh()
         {
             form.notify();
         }
 
-        public static void submit(AbstractTrade trade)
+        public void submit(AbstractTrade trade)
         {
             pending.Add(trade);
             log += "Trade order submitted to clearing house:\n";
             log += trade.describe() + "\n";
         }
 
-        public static Date getNextDate(Date d)
+        public Date getNextDate(Date d)
         {
             do
             {
@@ -102,7 +97,7 @@ namespace BotGUI
             } while (!validDate.Contains(d));
             return d;
         }
-        public static void back()
+        public void back()
         {
             foreach (AbstractTrade t in pending)
             {
@@ -119,44 +114,44 @@ namespace BotGUI
                 blisteners.Remove(listener);
         }
 
-        public static void addListener(Bot b)
+        public void addListener(Bot b)
         {
             listeners.Insert(0, b);
         }
 
-        public static void addBListener(AbstractTrade t)
+        public void addBListener(AbstractTrade t)
         {
             blisteners.Insert(0, t);
         }
 
-        public static Date getDate()
+        public Date getDate()
         {
             // don't pass the curdate object directly! it gets modified!
             return curDate.clone();
         }
 
-        public static void addBot(Bot b)
+        public void addBot(Bot b)
         {
             bots.Add(b);
             form.notify();
         }
 
-        public static void addLog(String s)
+        public void addLog(String s)
         {
             log += s;
         }
 
-        public static List<Bot> getBots()
+        public List<Bot> getBots()
         {
             return bots;
         }
 
-        public static String getLog()
+        public String getLog()
         {
             return log;
         }
 
-        public static String getBLog()
+        public String getBLog()
         {
             String ret = "";
             for (int i = 0; i < bots.Count; ++i)
@@ -168,7 +163,7 @@ namespace BotGUI
             return ret;
         }
 
-        public static float calcVal()
+        public float calcVal()
         {
             float ret = 0;
             foreach (Bot b in bots)
@@ -176,23 +171,47 @@ namespace BotGUI
             return ret;
         }
 
-        public static float getVal(String s, Date d)
+        public float getVal(String s, Date d)
         {
             // getting the value on the current day should always be uncertain! this is the stock market!
             if (d == getDate())
             {
-                StockData temp = stockMarket[s].GetValueOrDefault(d, StockData.empty);
+                StockBar temp = stockMarket[s].get(d);
                 if (temp.high == 0)
                     return 0;
                 return temp.low + (temp.high - temp.low) * (float) rand.NextDouble();
             }
             // use closing price for any previous day
-            return stockMarket[s].GetValueOrDefault(d, StockData.empty).close;
+            return stockMarket[s].get(d).close;
         }
 
-        public static int random(int n)
+        public int random(int n)
         {
             return rand.Next(n);
+        }
+
+        public void addValidDate(Date d)
+        {
+            validDate.Add(d);
+        }
+
+        // singleton
+        public static Market getInstance(mainForm? from = null)
+        {
+            if (instance == null)
+            {
+                lock(_lock)
+                {
+                    if (instance == null)
+                    {
+                        instance = new Market();
+                        instance.init(from);
+                    }
+                }
+            }
+            if (from != null && instance.form == null)
+                instance.form = from;
+            return instance;
         }
     }
 }

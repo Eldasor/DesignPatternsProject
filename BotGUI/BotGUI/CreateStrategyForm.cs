@@ -19,9 +19,9 @@ namespace BotGUI
 
         private void CreateStrategyForm_Load(object sender, EventArgs e)
         {
-            textBox1.Text = Market.getBots().Count.ToString();
+            textBox1.Text = Market.getInstance().getBots().Count.ToString();
             List<DataItem> botCombo = new List<DataItem>();
-            List<Bot> bots = Market.getBots();
+            List<Bot> bots = Market.getInstance().getBots();
             Console.Write("got here and bots is " + bots.ToString());
             for (int i = 0; i < bots.Count(); ++i)
                 botCombo.Add(new DataItem(i, bots.ElementAt(i).getName()));
@@ -32,9 +32,9 @@ namespace BotGUI
 
         private void numSharesBox_Load(object sender, EventArgs e)
         {
-            textBox1.Text = Market.getBots().Count.ToString();
+            textBox1.Text = Market.getInstance().getBots().Count.ToString();
             List<DataItem> botCombo = new List<DataItem>();
-            List<Bot> bots = Market.getBots();
+            List<Bot> bots = Market.getInstance().getBots();
             Console.Write("got here and bots is " + bots.ToString());
             for (int i = 0; i < bots.Count(); ++i)
                 botCombo.Add(new DataItem(i, bots.ElementAt(i).getName()));
@@ -45,7 +45,8 @@ namespace BotGUI
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Bot b = Market.getBots()[botCBox.SelectedIndex];
+            Market m = Market.getInstance();
+            Bot b = m.getBots()[botCBox.SelectedIndex];
             IStrategy ret = new CoreStrategy(buyRButton.Checked, fokRButton.Checked, b);
             if (costBaseAboveCBox.Checked)
             {
@@ -90,7 +91,7 @@ namespace BotGUI
             if (killCBox.Checked)
                 ret = new KillDetail(ret);
             b.addStrategy(ret);
-            Market.refresh();
+            m.refresh();
             this.Close();
         }
 

@@ -40,7 +40,7 @@ namespace BotGUI
             if (trades.Count == 0)
                 return null;
             // doing it randomly, can't think of an easy way to filter this...
-            return trades.ElementAt(Market.random(trades.Count));
+            return trades.ElementAt(Market.getInstance().random(trades.Count));
         }
 
         public override string describe()
