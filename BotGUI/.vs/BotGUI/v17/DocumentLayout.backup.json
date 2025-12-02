@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\david\\source\\repos\\BotGUI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BAAEED18-AA3C-48DF-9720-3792029A12F4}|BotGUI\\BotGUI.csproj|c:\\users\\david\\source\\repos\\botgui\\botgui\\linearpredictionstrategydetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAEED18-AA3C-48DF-9720-3792029A12F4}|BotGUI\\BotGUI.csproj|solutionrelative:botgui\\linearpredictionstrategydetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAEED18-AA3C-48DF-9720-3792029A12F4}|BotGUI\\BotGUI.csproj|c:\\users\\david\\source\\repos\\botgui\\botgui\\linearregressiontuple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAAEED18-AA3C-48DF-9720-3792029A12F4}|BotGUI\\BotGUI.csproj|solutionrelative:botgui\\linearregressiontuple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BAAEED18-AA3C-48DF-9720-3792029A12F4}|BotGUI\\BotGUI.csproj|c:\\users\\david\\source\\repos\\botgui\\botgui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAAEED18-AA3C-48DF-9720-3792029A12F4}|BotGUI\\BotGUI.csproj|solutionrelative:botgui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -107,14 +115,6 @@
       "RelativeMoniker": "D:0:0:{BAAEED18-AA3C-48DF-9720-3792029A12F4}|BotGUI\\BotGUI.csproj|solutionrelative:botgui\\linuxfilesystemdatasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAAEED18-AA3C-48DF-9720-3792029A12F4}|BotGUI\\BotGUI.csproj|c:\\users\\david\\source\\repos\\botgui\\botgui\\linearregressiontuple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAAEED18-AA3C-48DF-9720-3792029A12F4}|BotGUI\\BotGUI.csproj|solutionrelative:botgui\\linearregressiontuple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAAEED18-AA3C-48DF-9720-3792029A12F4}|BotGUI\\BotGUI.csproj|c:\\users\\david\\source\\repos\\botgui\\botgui\\linearpredictionstrategydetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAAEED18-AA3C-48DF-9720-3792029A12F4}|BotGUI\\BotGUI.csproj|solutionrelative:botgui\\linearpredictionstrategydetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BAAEED18-AA3C-48DF-9720-3792029A12F4}|BotGUI\\BotGUI.csproj|c:\\users\\david\\source\\repos\\botgui\\botgui\\killdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAAEED18-AA3C-48DF-9720-3792029A12F4}|BotGUI\\BotGUI.csproj|solutionrelative:botgui\\killdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -202,7 +202,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -210,45 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ChartPoint.cs",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\ChartPoint.cs",
-              "RelativeDocumentMoniker": "BotGUI\\ChartPoint.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\ChartPoint.cs",
-              "RelativeToolTip": "BotGUI\\ChartPoint.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T01:23:04.302Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\Form1.cs",
-              "RelativeDocumentMoniker": "BotGUI\\Form1.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\Form1.cs [Design]",
-              "RelativeToolTip": "BotGUI\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T13:21:31.354Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "BotGUI\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\Form1.Designer.cs",
-              "RelativeToolTip": "BotGUI\\Form1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T08:46:55.795Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Market.cs",
               "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\Market.cs",
               "RelativeDocumentMoniker": "BotGUI\\Market.cs",
@@ -256,12 +218,11 @@
               "RelativeToolTip": "BotGUI\\Market.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAiwEAAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T15:04:47.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T15:04:47.045Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\Form1.cs",
               "RelativeDocumentMoniker": "BotGUI\\Form1.cs",
@@ -274,279 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RemoveBotForm.cs",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\RemoveBotForm.cs",
-              "RelativeDocumentMoniker": "BotGUI\\RemoveBotForm.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\RemoveBotForm.cs",
-              "RelativeToolTip": "BotGUI\\RemoveBotForm.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T19:48:53.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StockBar.cs",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\StockBar.cs",
-              "RelativeDocumentMoniker": "BotGUI\\StockBar.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\StockBar.cs",
-              "RelativeToolTip": "BotGUI\\StockBar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T17:29:36.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SharesDetail.cs",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\SharesDetail.cs",
-              "RelativeDocumentMoniker": "BotGUI\\SharesDetail.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\SharesDetail.cs",
-              "RelativeToolTip": "BotGUI\\SharesDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T11:12:50.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ShareDuple.cs",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\ShareDuple.cs",
-              "RelativeDocumentMoniker": "BotGUI\\ShareDuple.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\ShareDuple.cs",
-              "RelativeToolTip": "BotGUI\\ShareDuple.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T09:33:19.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CreateStrategyForm.cs",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\CreateStrategyForm.cs",
-              "RelativeDocumentMoniker": "BotGUI\\CreateStrategyForm.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\CreateStrategyForm.cs",
-              "RelativeToolTip": "BotGUI\\CreateStrategyForm.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA8wBUAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T21:24:35.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BuyTrade.cs",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\BuyTrade.cs",
-              "RelativeDocumentMoniker": "BotGUI\\BuyTrade.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\BuyTrade.cs",
-              "RelativeToolTip": "BotGUI\\BuyTrade.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAIwD4AAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T06:40:11.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SellTrade.cs",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\SellTrade.cs",
-              "RelativeDocumentMoniker": "BotGUI\\SellTrade.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\SellTrade.cs",
-              "RelativeToolTip": "BotGUI\\SellTrade.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAIwD0AAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T07:38:59.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CreateStrategyForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\CreateStrategyForm.cs",
-              "RelativeDocumentMoniker": "BotGUI\\CreateStrategyForm.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\CreateStrategyForm.cs [Design]",
-              "RelativeToolTip": "BotGUI\\CreateStrategyForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T21:33:47.633Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "WaitDetail.cs",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\WaitDetail.cs",
-              "RelativeDocumentMoniker": "BotGUI\\WaitDetail.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\WaitDetail.cs",
-              "RelativeToolTip": "BotGUI\\WaitDetail.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAIBJwCsAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T21:27:51.04Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "WindowsFileSystemMarketDataSource.cs",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\WindowsFileSystemMarketDataSource.cs",
-              "RelativeDocumentMoniker": "BotGUI\\WindowsFileSystemMarketDataSource.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\WindowsFileSystemMarketDataSource.cs",
-              "RelativeToolTip": "BotGUI\\WindowsFileSystemMarketDataSource.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvxMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T23:03:51.21Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IMarketDataSource.cs",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\IMarketDataSource.cs",
-              "RelativeDocumentMoniker": "BotGUI\\IMarketDataSource.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\IMarketDataSource.cs",
-              "RelativeToolTip": "BotGUI\\IMarketDataSource.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T23:01:36.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "StockHistory.cs",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\StockHistory.cs",
-              "RelativeDocumentMoniker": "BotGUI\\StockHistory.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\StockHistory.cs",
-              "RelativeToolTip": "BotGUI\\StockHistory.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAkwBMAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T22:50:10.163Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "StrategyDetailComposite.cs",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\StrategyDetailComposite.cs",
-              "RelativeDocumentMoniker": "BotGUI\\StrategyDetailComposite.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\StrategyDetailComposite.cs",
-              "RelativeToolTip": "BotGUI\\StrategyDetailComposite.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowDAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T20:01:30.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "SellTradeFactory.cs",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\SellTradeFactory.cs",
-              "RelativeDocumentMoniker": "BotGUI\\SellTradeFactory.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\SellTradeFactory.cs",
-              "RelativeToolTip": "BotGUI\\SellTradeFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T10:25:06.836Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "RemoveStrategyForm.cs",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\RemoveStrategyForm.cs",
-              "RelativeDocumentMoniker": "BotGUI\\RemoveStrategyForm.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\RemoveStrategyForm.cs",
-              "RelativeToolTip": "BotGUI\\RemoveStrategyForm.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA1wBsAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T20:22:32.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "RelativeCostBasisDetail.cs",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\RelativeCostBasisDetail.cs",
-              "RelativeDocumentMoniker": "BotGUI\\RelativeCostBasisDetail.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\RelativeCostBasisDetail.cs",
-              "RelativeToolTip": "BotGUI\\RelativeCostBasisDetail.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBcAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T10:25:41.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "MinValueDetail.cs",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\MinValueDetail.cs",
-              "RelativeDocumentMoniker": "BotGUI\\MinValueDetail.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\MinValueDetail.cs",
-              "RelativeToolTip": "BotGUI\\MinValueDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T19:31:30.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "MinRelativeValueDetail.cs",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\MinRelativeValueDetail.cs",
-              "RelativeDocumentMoniker": "BotGUI\\MinRelativeValueDetail.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\MinRelativeValueDetail.cs",
-              "RelativeToolTip": "BotGUI\\MinRelativeValueDetail.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBkAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T19:49:28.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "MaxValueDetail.cs",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\MaxValueDetail.cs",
-              "RelativeDocumentMoniker": "BotGUI\\MaxValueDetail.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\MaxValueDetail.cs",
-              "RelativeToolTip": "BotGUI\\MaxValueDetail.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T19:46:58.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "MaxRelativeValueDetail.cs",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\MaxRelativeValueDetail.cs",
-              "RelativeDocumentMoniker": "BotGUI\\MaxRelativeValueDetail.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\MaxRelativeValueDetail.cs",
-              "RelativeToolTip": "BotGUI\\MaxRelativeValueDetail.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAIBJwBQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T19:54:04.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "LinuxFileSystemDataSource.cs",
-              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\LinuxFileSystemDataSource.cs",
-              "RelativeDocumentMoniker": "BotGUI\\LinuxFileSystemDataSource.cs",
-              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\LinuxFileSystemDataSource.cs",
-              "RelativeToolTip": "BotGUI\\LinuxFileSystemDataSource.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T23:28:56.425Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 1,
               "Title": "LinearRegressionTuple.cs",
               "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\LinearRegressionTuple.cs",
               "RelativeDocumentMoniker": "BotGUI\\LinearRegressionTuple.cs",
@@ -559,16 +248,306 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 0,
               "Title": "LinearPredictionStrategyDetail.cs",
               "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\LinearPredictionStrategyDetail.cs",
               "RelativeDocumentMoniker": "BotGUI\\LinearPredictionStrategyDetail.cs",
               "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\LinearPredictionStrategyDetail.cs",
               "RelativeToolTip": "BotGUI\\LinearPredictionStrategyDetail.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAwwD0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowEEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T14:39:16.354Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "BotGUI\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\Form1.Designer.cs",
+              "RelativeToolTip": "BotGUI\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T08:46:55.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\Form1.cs",
+              "RelativeDocumentMoniker": "BotGUI\\Form1.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\Form1.cs [Design]",
+              "RelativeToolTip": "BotGUI\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T13:21:31.354Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChartPoint.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\ChartPoint.cs",
+              "RelativeDocumentMoniker": "BotGUI\\ChartPoint.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\ChartPoint.cs",
+              "RelativeToolTip": "BotGUI\\ChartPoint.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T01:23:04.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RemoveBotForm.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\RemoveBotForm.cs",
+              "RelativeDocumentMoniker": "BotGUI\\RemoveBotForm.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\RemoveBotForm.cs",
+              "RelativeToolTip": "BotGUI\\RemoveBotForm.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T19:48:53.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StockBar.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\StockBar.cs",
+              "RelativeDocumentMoniker": "BotGUI\\StockBar.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\StockBar.cs",
+              "RelativeToolTip": "BotGUI\\StockBar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T17:29:36.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SharesDetail.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\SharesDetail.cs",
+              "RelativeDocumentMoniker": "BotGUI\\SharesDetail.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\SharesDetail.cs",
+              "RelativeToolTip": "BotGUI\\SharesDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T11:12:50.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ShareDuple.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\ShareDuple.cs",
+              "RelativeDocumentMoniker": "BotGUI\\ShareDuple.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\ShareDuple.cs",
+              "RelativeToolTip": "BotGUI\\ShareDuple.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T09:33:19.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateStrategyForm.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\CreateStrategyForm.cs",
+              "RelativeDocumentMoniker": "BotGUI\\CreateStrategyForm.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\CreateStrategyForm.cs",
+              "RelativeToolTip": "BotGUI\\CreateStrategyForm.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA8wBUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T21:24:35.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BuyTrade.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\BuyTrade.cs",
+              "RelativeDocumentMoniker": "BotGUI\\BuyTrade.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\BuyTrade.cs",
+              "RelativeToolTip": "BotGUI\\BuyTrade.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwD4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T06:40:11.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SellTrade.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\SellTrade.cs",
+              "RelativeDocumentMoniker": "BotGUI\\SellTrade.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\SellTrade.cs",
+              "RelativeToolTip": "BotGUI\\SellTrade.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwD0AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T07:38:59.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateStrategyForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\CreateStrategyForm.cs",
+              "RelativeDocumentMoniker": "BotGUI\\CreateStrategyForm.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\CreateStrategyForm.cs [Design]",
+              "RelativeToolTip": "BotGUI\\CreateStrategyForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T21:33:47.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WaitDetail.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\WaitDetail.cs",
+              "RelativeDocumentMoniker": "BotGUI\\WaitDetail.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\WaitDetail.cs",
+              "RelativeToolTip": "BotGUI\\WaitDetail.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwCsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T21:27:51.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WindowsFileSystemMarketDataSource.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\WindowsFileSystemMarketDataSource.cs",
+              "RelativeDocumentMoniker": "BotGUI\\WindowsFileSystemMarketDataSource.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\WindowsFileSystemMarketDataSource.cs",
+              "RelativeToolTip": "BotGUI\\WindowsFileSystemMarketDataSource.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T23:03:51.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IMarketDataSource.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\IMarketDataSource.cs",
+              "RelativeDocumentMoniker": "BotGUI\\IMarketDataSource.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\IMarketDataSource.cs",
+              "RelativeToolTip": "BotGUI\\IMarketDataSource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T23:01:36.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StockHistory.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\StockHistory.cs",
+              "RelativeDocumentMoniker": "BotGUI\\StockHistory.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\StockHistory.cs",
+              "RelativeToolTip": "BotGUI\\StockHistory.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwBMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T22:50:10.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "StrategyDetailComposite.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\StrategyDetailComposite.cs",
+              "RelativeDocumentMoniker": "BotGUI\\StrategyDetailComposite.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\StrategyDetailComposite.cs",
+              "RelativeToolTip": "BotGUI\\StrategyDetailComposite.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T20:01:30.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SellTradeFactory.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\SellTradeFactory.cs",
+              "RelativeDocumentMoniker": "BotGUI\\SellTradeFactory.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\SellTradeFactory.cs",
+              "RelativeToolTip": "BotGUI\\SellTradeFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T10:25:06.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RemoveStrategyForm.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\RemoveStrategyForm.cs",
+              "RelativeDocumentMoniker": "BotGUI\\RemoveStrategyForm.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\RemoveStrategyForm.cs",
+              "RelativeToolTip": "BotGUI\\RemoveStrategyForm.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wBsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T20:22:32.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RelativeCostBasisDetail.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\RelativeCostBasisDetail.cs",
+              "RelativeDocumentMoniker": "BotGUI\\RelativeCostBasisDetail.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\RelativeCostBasisDetail.cs",
+              "RelativeToolTip": "BotGUI\\RelativeCostBasisDetail.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T10:25:41.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MinValueDetail.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\MinValueDetail.cs",
+              "RelativeDocumentMoniker": "BotGUI\\MinValueDetail.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\MinValueDetail.cs",
+              "RelativeToolTip": "BotGUI\\MinValueDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T19:31:30.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MinRelativeValueDetail.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\MinRelativeValueDetail.cs",
+              "RelativeDocumentMoniker": "BotGUI\\MinRelativeValueDetail.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\MinRelativeValueDetail.cs",
+              "RelativeToolTip": "BotGUI\\MinRelativeValueDetail.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T19:49:28.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MaxValueDetail.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\MaxValueDetail.cs",
+              "RelativeDocumentMoniker": "BotGUI\\MaxValueDetail.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\MaxValueDetail.cs",
+              "RelativeToolTip": "BotGUI\\MaxValueDetail.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T19:46:58.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MaxRelativeValueDetail.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\MaxRelativeValueDetail.cs",
+              "RelativeDocumentMoniker": "BotGUI\\MaxRelativeValueDetail.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\MaxRelativeValueDetail.cs",
+              "RelativeToolTip": "BotGUI\\MaxRelativeValueDetail.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T19:54:04.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LinuxFileSystemDataSource.cs",
+              "DocumentMoniker": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\LinuxFileSystemDataSource.cs",
+              "RelativeDocumentMoniker": "BotGUI\\LinuxFileSystemDataSource.cs",
+              "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\LinuxFileSystemDataSource.cs",
+              "RelativeToolTip": "BotGUI\\LinuxFileSystemDataSource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T23:28:56.425Z"
             },
             {
               "$type": "Document",
@@ -580,8 +559,7 @@
               "RelativeToolTip": "BotGUI\\KillDetail.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAIBJwBEAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T07:33:16.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T07:33:16.476Z"
             },
             {
               "$type": "Document",
@@ -593,8 +571,7 @@
               "RelativeToolTip": "BotGUI\\ITradeFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T07:54:07.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T07:54:07.095Z"
             },
             {
               "$type": "Document",
@@ -606,8 +583,7 @@
               "RelativeToolTip": "BotGUI\\IStrategy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T14:19:13.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T14:19:13.667Z"
             },
             {
               "$type": "Document",
@@ -619,8 +595,7 @@
               "RelativeToolTip": "BotGUI\\ImproperValueException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T19:51:15.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T19:51:15.977Z"
             },
             {
               "$type": "Document",
@@ -632,8 +607,7 @@
               "RelativeToolTip": "BotGUI\\IListener.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T15:40:28.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T15:40:28.61Z"
             },
             {
               "$type": "Document",
@@ -645,8 +619,7 @@
               "RelativeToolTip": "BotGUI\\IBackListener.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T15:45:52.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T15:45:52.169Z"
             },
             {
               "$type": "Document",
@@ -658,8 +631,7 @@
               "RelativeToolTip": "BotGUI\\Date.cs",
               "ViewState": "AgIAAHQAAAAAAAAAAAAswIEAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T14:57:36.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T14:57:36.017Z"
             },
             {
               "$type": "Document",
@@ -671,8 +643,7 @@
               "RelativeToolTip": "BotGUI\\DataItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T21:16:30.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T21:16:30.787Z"
             },
             {
               "$type": "Document",
@@ -697,8 +668,7 @@
               "RelativeToolTip": "BotGUI\\CostBasisDetail.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAUwBkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T09:40:16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T09:40:16Z"
             },
             {
               "$type": "Document",
@@ -710,8 +680,7 @@
               "RelativeToolTip": "BotGUI\\CoreStrategy.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwBkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T10:47:32.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T10:47:32.755Z"
             },
             {
               "$type": "Document",
@@ -723,8 +692,7 @@
               "RelativeToolTip": "BotGUI\\BuyTradeFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T07:54:53.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T07:54:53.453Z"
             },
             {
               "$type": "Document",
@@ -736,8 +704,7 @@
               "RelativeToolTip": "BotGUI\\Bot.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAAwEYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T14:17:07.807Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T14:17:07.807Z"
             },
             {
               "$type": "Document",
@@ -749,8 +716,7 @@
               "RelativeToolTip": "BotGUI\\AbstractTrade.cs",
               "ViewState": "AgIAAEwAAAAAAAAAAAAUwBcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T15:43:47.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T15:43:47.795Z"
             },
             {
               "$type": "Document",
@@ -762,8 +728,7 @@
               "RelativeToolTip": "BotGUI\\AbstractStrategyDetail.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAIBJwBUAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T18:23:38.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T18:23:38.285Z"
             },
             {
               "$type": "Document",
@@ -775,8 +740,7 @@
               "RelativeToolTip": "BotGUI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T14:15:25.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T14:15:25.039Z"
             },
             {
               "$type": "Document",
@@ -788,8 +752,7 @@
               "RelativeToolTip": "BotGUI\\CreateStrategyForm.Designer.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAowBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T21:26:21.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T21:26:21.095Z"
             },
             {
               "$type": "Document",
@@ -800,8 +763,7 @@
               "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\CreateBotForm.cs [Design]",
               "RelativeToolTip": "BotGUI\\CreateBotForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T18:19:36.04Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-25T18:19:36.04Z"
             },
             {
               "$type": "Document",
@@ -812,8 +774,7 @@
               "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\RemoveStrategyForm.cs [Design]",
               "RelativeToolTip": "BotGUI\\RemoveStrategyForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T19:53:09.588Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-28T19:53:09.588Z"
             },
             {
               "$type": "Document",
@@ -824,8 +785,7 @@
               "ToolTip": "C:\\Users\\david\\source\\repos\\BotGUI\\BotGUI\\RemoveBotForm.cs [Design]",
               "RelativeToolTip": "BotGUI\\RemoveBotForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T19:45:43.435Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-28T19:45:43.435Z"
             }
           ]
         }

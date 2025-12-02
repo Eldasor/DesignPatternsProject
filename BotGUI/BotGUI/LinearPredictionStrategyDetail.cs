@@ -61,7 +61,9 @@ namespace BotGUI
             for (int i = 1; i <= length; ++i)
             {
                 d = m.getPrevDate(d);
-                vals.Prepend(m.getVal(s, d));
+                if (vals.Count == 0)
+                    vals.Add(m.getVal(s, d));
+                else vals.Insert(0, m.getVal(s, d));
                 mean += vals.ElementAt(0);
                 if (vals.ElementAt(0) == 0)
                     nmt = true;
