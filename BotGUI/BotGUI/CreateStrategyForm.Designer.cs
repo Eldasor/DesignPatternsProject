@@ -81,7 +81,6 @@
             button1 = new Button();
             button2 = new Button();
             label5 = new Label();
-            textBox1 = new TextBox();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -650,13 +649,6 @@
             label5.TabIndex = 20;
             label5.Text = "Bot:";
             // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(118, 34);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(54, 23);
-            textBox1.TabIndex = 2;
-            // 
             // numSharesBox
             // 
             AcceptButton = button2;
@@ -664,7 +656,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             CancelButton = button1;
             ClientSize = new Size(414, 486);
-            Controls.Add(textBox1);
             Controls.Add(label5);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -785,6 +776,5 @@
         private Button button1;
         private Button button2;
         private Label label5;
-        private TextBox textBox1;
     }
 }

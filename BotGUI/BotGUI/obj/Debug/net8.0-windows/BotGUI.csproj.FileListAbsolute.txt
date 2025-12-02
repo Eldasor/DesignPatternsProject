@@ -18,3 +18,7 @@ C:\Users\david\source\repos\BotGUI\BotGUI\obj\Debug\net8.0-windows\refint\BotGUI
 C:\Users\david\source\repos\BotGUI\BotGUI\obj\Debug\net8.0-windows\BotGUI.pdb
 C:\Users\david\source\repos\BotGUI\BotGUI\obj\Debug\net8.0-windows\BotGUI.genruntimeconfig.cache
 C:\Users\david\source\repos\BotGUI\BotGUI\obj\Debug\net8.0-windows\ref\BotGUI.dll
+C:\Users\david\source\repos\BotGUI\BotGUI\bin\Debug\net8.0-windows\WinForms.DataVisualization.Utilities.dll
+C:\Users\david\source\repos\BotGUI\BotGUI\bin\Debug\net8.0-windows\WinForms.DataVisualization.dll
+C:\Users\david\source\repos\BotGUI\BotGUI\obj\Debug\net8.0-windows\BotGUI.csproj.AssemblyReference.cache
+C:\Users\david\source\repos\BotGUI\BotGUI\obj\Debug\net8.0-windows\BotGUI.csproj.Up2Date

@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             autoButton = new Button();
             stepButton = new Button();
             stepTimer = new System.Windows.Forms.Timer(components);
@@ -40,12 +43,13 @@
             button1 = new Button();
             richTextBox1 = new RichTextBox();
             groupBox2 = new GroupBox();
-            panel1 = new Panel();
             valueLabel = new Label();
             richTextBox2 = new RichTextBox();
             avLabel = new Label();
+            chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)chart1).BeginInit();
             SuspendLayout();
             // 
             // autoButton
@@ -153,7 +157,7 @@
             // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(panel1);
+            groupBox2.Controls.Add(chart1);
             groupBox2.Controls.Add(valueLabel);
             groupBox2.Controls.Add(richTextBox2);
             groupBox2.Controls.Add(avLabel);
@@ -168,13 +172,6 @@
             groupBox2.TabStop = false;
             groupBox2.Text = "Market";
             groupBox2.Enter += groupBox2_Enter;
-            // 
-            // panel1
-            // 
-            panel1.Location = new Point(162, 22);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(292, 311);
-            panel1.TabIndex = 5;
             // 
             // valueLabel
             // 
@@ -209,6 +206,22 @@
             avLabel.TabIndex = 3;
             avLabel.Text = "Account Value: ";
             // 
+            // chart1
+            // 
+            chartArea1.Name = "ChartArea1";
+            chart1.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            chart1.Legends.Add(legend1);
+            chart1.Location = new Point(160, 22);
+            chart1.Name = "chart1";
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            chart1.Series.Add(series1);
+            chart1.Size = new Size(294, 311);
+            chart1.TabIndex = 11;
+            chart1.Text = "Total account value";
+            // 
             // mainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -222,6 +235,7 @@
             groupBox1.ResumeLayout(false);
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)chart1).EndInit();
             ResumeLayout(false);
         }
 
@@ -240,7 +254,7 @@
         private Label avLabel;
         private Button button3;
         private Button button1;
-        private Panel panel1;
         private RichTextBox richTextBox2;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
     }
 }

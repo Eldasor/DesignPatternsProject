@@ -32,12 +32,13 @@ namespace BotGUI
         String log = "";
         mainForm? form;
         List<Bot> bots = new List<Bot>();
+        List<ChartPoint> totalValue = new List<ChartPoint>();
         
         private Market()
         {
 
         }
-        public void init(mainForm? f)
+        private void init(mainForm? f)
         {
             form = f;
             String[] stockfiles = Directory.GetFiles(directory);
@@ -61,6 +62,7 @@ namespace BotGUI
             }
             pending.Clear();
             curDate = getNextDate(curDate);
+            totalValue.Add(new ChartPoint(totalValue.Count, calcVal()));
             foreach (IListener listener in listeners)
             {
                 listener.notify();
@@ -74,6 +76,11 @@ namespace BotGUI
                 if (d < safeMinDate) break; // or throw exception?
             } while (!validDate.Contains(d));
             return d;
+        }
+
+        public List<ChartPoint> getTotalValue()
+        {
+            return totalValue;
         }
 
         public void refresh()
@@ -99,6 +106,8 @@ namespace BotGUI
         }
         public void back()
         {
+            if (totalValue.Count > 0)
+                totalValue.RemoveAt(totalValue.Count - 1);
             foreach (AbstractTrade t in pending)
             {
                 t.cancel();

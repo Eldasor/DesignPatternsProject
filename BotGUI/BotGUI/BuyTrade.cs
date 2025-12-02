@@ -60,7 +60,7 @@ namespace BotGUI
         public override String describe()
         {
             String ret = "Buy order\n";
-            ret += "From " + getReceiver().getName();
+            ret += "From " + getReceiver().getName() + "\n";
             ret += getShares().ToString() + " shares of " + getTicker() + "\n";
             ret += "Min value: " + getMinimum().ToString() + ", Max value: " + getMaximum().ToString() + "\n";
             return ret;

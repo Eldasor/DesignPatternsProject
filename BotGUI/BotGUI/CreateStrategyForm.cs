@@ -19,7 +19,7 @@ namespace BotGUI
 
         private void CreateStrategyForm_Load(object sender, EventArgs e)
         {
-            textBox1.Text = Market.getInstance().getBots().Count.ToString();
+            // error in generation - code doesn't execute
             List<DataItem> botCombo = new List<DataItem>();
             List<Bot> bots = Market.getInstance().getBots();
             Console.Write("got here and bots is " + bots.ToString());
@@ -32,7 +32,6 @@ namespace BotGUI
 
         private void numSharesBox_Load(object sender, EventArgs e)
         {
-            textBox1.Text = Market.getInstance().getBots().Count.ToString();
             List<DataItem> botCombo = new List<DataItem>();
             List<Bot> bots = Market.getInstance().getBots();
             Console.Write("got here and bots is " + bots.ToString());

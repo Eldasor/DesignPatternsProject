@@ -1,5 +1,6 @@
 using Microsoft.VisualBasic.Logging;
 using System.Runtime.InteropServices;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace BotGUI
 {
@@ -76,7 +77,19 @@ namespace BotGUI
 
         private void mainForm_Load(object sender, EventArgs e)
         {
-            Market.getInstance(this);
+            Market m = Market.getInstance(this);
+            chart1.Series.Clear();
+            Series s = new Series("Account Value");
+            s.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            s.Color = Color.Green;
+            s.BorderWidth = 3;
+            s.MarkerStyle = MarkerStyle.Circle;
+            s.MarkerSize = 8;
+            s.XValueMember = "Idx";
+            s.YValueMembers = "Val";
+            chart1.Series.Add(s);
+            chart1.DataSource = m.getTotalValue();
+            chart1.DataBind();
         }
 
         public bool back()
@@ -91,6 +104,7 @@ namespace BotGUI
             richTextBox1.Text = m.getBLog();
             richTextBox2.Text = m.getLog();
             valueLabel.Text = "$" + Math.Round(m.calcVal(), 2);
+            chart1.DataBind();
         }
 
         private void removeButton_Click(object sender, EventArgs e)
